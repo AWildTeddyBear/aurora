@@ -33,7 +33,7 @@ from discord.ext import commands
 # pr.disable()
 # pr.print_stats(sort="calls")
 #
-headers = {'contentType': 'application/x-www-form-urlencoded','User-Agent': 'CFTools ServiceAPI-Client'}
+headers = {'contentType': 'application/json', 'User-Agent': 'CFTools ServiceAPI-Client'}
 
 # Basic Console Log System
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='[%H:%M:%S]')
